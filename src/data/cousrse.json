@@ -1,0 +1,145 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to JavaScript",
+      "description": "Learn the basics of JavaScript programming.",
+      "duration": "4 weeks",
+      "difficulty": "Beginner",
+      "price": 19.99,
+      "instructorId": 1,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "JavaScript Basics",
+          "duration": "1 hour",
+          "content": "Introduction to variables, functions, and loops."
+        },
+        {
+          "id": 2,
+          "title": "Working with Objects",
+          "duration": "1.5 hours",
+          "content": "Learn about JavaScript objects and properties."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced Python",
+      "description": "Master advanced Python techniques and libraries.",
+      "duration": "6 weeks",
+      "difficulty": "Advanced",
+      "price": 29.99,
+      "instructorId": 2,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Decorators and Generators",
+          "duration": "2 hours",
+          "content": "Deep dive into Python decorators and generators."
+        },
+        {
+          "id": 2,
+          "title": "Working with APIs in Python",
+          "duration": "2.5 hours",
+          "content": "Learn how to integrate APIs using Python."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Web Development Bootcamp",
+      "description": "A comprehensive course covering front-end and back-end web development.",
+      "duration": "8 weeks",
+      "difficulty": "Intermediate",
+      "price": 39.99,
+      "instructorId": 3,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "HTML & CSS Fundamentals",
+          "duration": "2 hours",
+          "content": "Learn the basics of HTML and CSS to build beautiful websites."
+        },
+        {
+          "id": 2,
+          "title": "Introduction to JavaScript",
+          "duration": "2.5 hours",
+          "content": "Learn how to use JavaScript to add interactivity to websites."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Data Science with Python",
+      "description": "Learn data analysis, visualization, and machine learning with Python.",
+      "duration": "10 weeks",
+      "difficulty": "Advanced",
+      "price": 49.99,
+      "instructorId": 2,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Data Analysis with Pandas",
+          "duration": "3 hours",
+          "content": "Learn how to analyze datasets using the Pandas library."
+        },
+        {
+          "id": 2,
+          "title": "Data Visualization with Matplotlib",
+          "duration": "2 hours",
+          "content": "Create stunning data visualizations with Matplotlib."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "React.js for Beginners",
+      "description": "A beginner's guide to building dynamic user interfaces with React.",
+      "duration": "5 weeks",
+      "difficulty": "Beginner",
+      "price": 24.99,
+      "instructorId": 4,
+      "lessons": [
+        {
+          "id": 1,
+          "title": "React Components",
+          "duration": "1.5 hours",
+          "content": "Understand the basics of React components and props."
+        },
+        {
+          "id": 2,
+          "title": "State and Lifecycle",
+          "duration": "2 hours",
+          "content": "Learn how to manage state and lifecycle methods in React."
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "bio": "Experienced JavaScript developer and educator.",
+      "contactEmail": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "bio": "Senior Python developer with 10+ years of experience.",
+      "contactEmail": "jane.smith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Alice Brown",
+      "bio": "Full-stack developer and bootcamp instructor.",
+      "contactEmail": "alice.brown@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Mike Johnson",
+      "bio": "Front-end developer specializing in React and Angular.",
+      "contactEmail": "mike.johnson@example.com"
+    }
+  ]
+}
